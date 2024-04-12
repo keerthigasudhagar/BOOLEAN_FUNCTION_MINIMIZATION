@@ -41,27 +41,31 @@ RegisterNumber:212223040093
 **program**
 
 ```
-module combinationalcircuit(A,B,C,D,F1);
-input A,B,C,D;
-output F1;
-wire x1,x2,x3,x4,x5;
+module Boolean_min(A,B,C,D,W,X,Y,Z,F1,F2);
+input A,B,C,D,W,X,Y,Z;
+wire x1,x2,x3,x4,x5,x6,x7,x8,x9,x10;
+output F1,F2;
 assign x1=(~A)&(~B)&(~C)&(~D);
 assign x2=(A)&(~C)&(~D);
 assign x3=(~B)&(C)&(~D);
 assign x4=(~A)&(B)&(C)&(D);
 assign x5=(B)&(~C)&(D);
+assign x6=(X)&(~Y)&(Z);
+assign x7=(~X)&(~Y)&(Z);
+assign x8=(~W)&(X)&(Y);
+assign x9=(W)&(~X)&(Y);
+assign x10=(W)&(X)&(Y);
 assign F1=x1|x2|x3|x4|x5;
+assign F2=x6|x7|x8|x9|x10;
 endmodule
+
+
 ```
-**RTL realization**
-![312535957-dbd64921-6857-40ee-a21b-55fa17e9f89b](https://github.com/keerthigasudhagar/BOOLEAN_FUNCTION_MINIMIZATION/assets/163229129/20c74833-19b9-4b3e-b48c-b11a1136280d)
-
-**Truth table**
-![312536822-849f41b1-394f-48f4-b451-88315b927f79](https://github.com/keerthigasudhagar/BOOLEAN_FUNCTION_MINIMIZATION/assets/163229129/d43706c9-ae4d-4974-8e6f-3763deb24a9b)
-
+**RTL realizetion**
+![316396172-5ffd7097-c99c-4ef3-a82d-0108e72a8b9e](https://github.com/keerthigasudhagar/BOOLEAN_FUNCTION_MINIMIZATION/assets/163229129/f7b9d2fc-8e84-4951-bebf-ff0c1479b8e8)
 
 **Timing Diagram**
-![312537126-533d1307-308c-4a6d-9495-b6f289bf8479](https://github.com/keerthigasudhagar/BOOLEAN_FUNCTION_MINIMIZATION/assets/163229129/7021421e-a601-455b-b518-5b5ea0886dc4)
+![316396315-3294f442-723b-4550-ab9c-49ed60325deb](https://github.com/keerthigasudhagar/BOOLEAN_FUNCTION_MINIMIZATION/assets/163229129/460bf703-d1f1-4799-9304-08e7c4e778c9)
 
 
 **Result:**
