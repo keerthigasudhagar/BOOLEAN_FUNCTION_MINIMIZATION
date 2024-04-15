@@ -67,13 +67,14 @@ endmodule
 
 ```
 **RTL realizetion**
-![316396172-5ffd7097-c99c-4ef3-a82d-0108e72a8b9e](https://github.com/keerthigasudhagar/BOOLEAN_FUNCTION_MINIMIZATION/assets/163229129/f7b9d2fc-8e84-4951-bebf-ff0c1479b8e8)
+![319946102-5f8fd602-1f64-4305-94ed-a00425815952](https://github.com/keerthigasudhagar/BOOLEAN_FUNCTION_MINIMIZATION/assets/163229129/4629493a-2f5c-43e2-9fbc-51c3fccbe744)
+![319946102-5f8fd602-1f64-4305-94ed-a00425815952](https://github.com/keerthigasudhagar/BOOLEAN_FUNCTION_MINIMIZATION/assets/163229129/31f34e24-f805-4091-bff8-e984d97ca788)
 
 **Timing Diagram**
-![316396315-3294f442-723b-4550-ab9c-49ed60325deb](https://github.com/keerthigasudhagar/BOOLEAN_FUNCTION_MINIMIZATION/assets/163229129/460bf703-d1f1-4799-9304-08e7c4e778c9)
 
+![316250520-e6c8b78e-c29b-46ee-aee9-29ee38d94cd0](https://github.com/keerthigasudhagar/BOOLEAN_FUNCTION_MINIMIZATION/assets/163229129/6391d811-af51-4e18-9461-3a68d1967d1a)
+![319946818-12685259-eff6-4f38-a688-18485b77fe4a](https://github.com/keerthigasudhagar/BOOLEAN_FUNCTION_MINIMIZATION/assets/163229129/e308d527-5cc9-45ee-831a-84be836349d4)
 
 **Result:**
 
 Thus the given logic functions are implemented using and their operations are verified using Verilog programming.
-
