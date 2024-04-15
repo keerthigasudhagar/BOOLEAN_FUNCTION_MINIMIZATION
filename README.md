@@ -68,7 +68,7 @@ endmodule
 ```
 **RTL realizetion**
 ![319946102-5f8fd602-1f64-4305-94ed-a00425815952](https://github.com/keerthigasudhagar/BOOLEAN_FUNCTION_MINIMIZATION/assets/163229129/4629493a-2f5c-43e2-9fbc-51c3fccbe744)
-![319946102-5f8fd602-1f64-4305-94ed-a00425815952](https://github.com/keerthigasudhagar/BOOLEAN_FUNCTION_MINIMIZATION/assets/163229129/31f34e24-f805-4091-bff8-e984d97ca788)
+
 
 **Timing Diagram**
 
